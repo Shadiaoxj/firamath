@@ -17,5 +17,5 @@ jobs:
         run: python scripts/build.py
       - uses: actions/upload-artifact@v3
         with:
-          name: firamath-otf
-          path: build/*.otf
+          name: firamath-ttf
+          path: build/*.ttf
